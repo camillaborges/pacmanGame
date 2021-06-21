@@ -39,3 +39,23 @@ html, body {
     border-radius: .47em;
     border: none;
 }
+
+.blinky {
+    background-color: rgb(155, 155, 46);
+    border: none;
+}
+
+.pinky {
+    background-color: rgb(168, 37, 59);
+    border: none;
+}
+
+.inky {
+    background-color: rgb(83, 150, 7);
+    border: none;
+}
+
+.clyde {
+    background-color: rgb(8, 143, 132);
+    border: none;
+}
