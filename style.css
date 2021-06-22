@@ -9,7 +9,7 @@ html, body {
     flex-wrap: wrap;
     width: 26.25em;
     height: 26.25em;
-    border: solid black;
+    border: solid rgb(97, 94, 94);
     margin: 0 auto;
 }
 
