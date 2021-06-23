@@ -189,7 +189,7 @@ function moveGhost(ghost) {
 }
     function checkForGameOver() {
         if (
-            squares[pacmanaCurrentIndex].classList.contains("ghost") &&
+            squares[pacmanCurrentIndex].classList.contains("ghost") &&
             !squares[pacmanCurrentIndex].classList.contains("scared-ghost") 
         ) {
             ghosts.forEach(ghost => clearInterval(ghost.timerId))
@@ -200,7 +200,7 @@ function moveGhost(ghost) {
 
     function checkForWin(){
         if(score === 274) {
-            ghost.forEach(ghost => clearInterval(ghost.timerId))
+            ghosts.forEach(ghost => clearInterval(ghost.timerId))
             document.removeEventListener("keyup", control)
             scoreDisplay.innerHTML = "You Won"
         }
